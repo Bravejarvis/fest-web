@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>College Fest 2025</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <!-- Navigation Bar -->
+    <nav>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#events">Events</a></li>
+            <li><a href="#schedule">Schedule</a></li>
+            <li><a href="#registration">Registration</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+        </ul>
+    </nav>
+
+    <!-- About Section -->
+    <section id="about">
+        <h1>Welcome to Vidyutht 2025!</h1>
+        <p>Join us for an exciting  event filled with fun, learning, and entertainment!</p>
+    </section>
+
+    <!-- Events Section -->
+    <section id="events">
+        <h2>Events</h2>
+        <ul>
+            <li>Music Concert</li>
+            <li>Dance Performance</li>
+            <li>Robotics Workshop</li>
+            <li>Stand-Up Comedy</li>
+            <li>Art Exhibition</li>
+        </ul>
+    </section>
+
+    <!-- Schedule Section -->
+    <section id="schedule">
+        <h2>Event Schedule</h2>
+        <p><strong>Day 1:</strong> Workshops and Competitions</p>
+        <p><strong>Day 2:</strong> Performances and Award Ceremony</p>
+    </section>
+
+    <!-- Registration Section -->
+    <section id="registration">
+        <h2>Register for the Event</h2>
+        <form action="submit_registration" method="POST">
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" name="name" required><br><br>
+
+            <label for="email">Email Address:</label>
+            <input type="email" id="email" name="email" required><br><br>
+
+            <label for="event">Select Event:</label>
+            <select id="event" name="event" required>
+                <option value="music">Music Concert</option>
+                <option value="dance">Dance Performance</option>
+                <option value="robotics">Robotics Workshop</option>
+            </select><br><br>
+
+            <input type="submit" value="Register">
+        </form>
+    </section>
+
+    <!-- Countdown Section -->
+    <section id="countdown">
+        <h2>Countdown to the Main Event:</h2>
+        <div id="countdown-timer"></div>
+    </section>
+
+    <!-- Contact Us Section -->
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>If you have any questions, feel free to reach out to us!</p>
+        <p>Email: fest@college.com</p>
+        <p>Phone: 123-456-7890</p>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 College Fest. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>
